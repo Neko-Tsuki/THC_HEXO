@@ -396,3 +396,16 @@ html[color-scheme="dark"] .magazine-title { color: #eee !important; }
       object-fit: cover !important
       // 示例：移除阴影或边框（根据需要）
       box-shadow: none !important
+/* 公告栏夜间模式样式 */
+html[color-scheme="dark"] .announcement-bar,
+html:not([color-scheme]) .announcement-bar {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid #444 !important;
+}
+
+html[color-scheme="light"] .announcement-bar {
+  background-color: #f8f9fa !important;
+  color: #333 !important;
+  border-bottom: 1px solid #dee2e6 !important;
+}

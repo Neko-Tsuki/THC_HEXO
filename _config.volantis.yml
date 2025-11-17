@@ -1,3 +1,19 @@
+# 公告栏配置
+announcement:
+  enable: true
+  # 公告内容列表，支持轮播和单独链接
+  items:
+    - text: "东方行状录官网现已开放! "
+      link: "/"
+      icon: "fa-solid fa-bullhorn"
+    - text: "活动预告: 东方行状录第8期 将在11.29 江苏无锡天狐亦舞THO场贩，具体请参见官网相关文章"
+      link: "/"
+      icon: "fa-solid fa-calendar"
+    - text: "欢迎加入交流群一起交流! "
+      link: "https://qm.qq.com/q/qWDAU1lWgi"
+      icon: "fa-solid fa-users"
+    - text: "公告栏测试中..."
+      icon: "fa-solid fa-bullhorn"
 ############################### Volantis ###############################
 info:
   theme_name: Volantis # This is theme's name.
