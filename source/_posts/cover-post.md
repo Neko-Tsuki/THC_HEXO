@@ -26,6 +26,10 @@ date: 2025-10-28 23:22:55
 <br/>
 
 ---
+### 📔 Vol.0 梦 开始的地方
+{% gallery %}
+![第零期 · 梦 开始的地方](https://pic.shika-mori.top/picGO/0.webp)
+{% endgallery %}
 
 ### 📙 Vol.1 学会偷走 重要的东西
 {% gallery %}
@@ -72,6 +76,22 @@ date: 2025-10-28 23:22:55
 {% gallery %}
 ![第SP期 · 2024年冬季合订本 ](https://pic.shika-mori.top/picGO/2024冬合订本封面.png)
 {% endgallery %}
+
+### 📕 Vol.8 如蝴蝶般 入梦
+{% gallery %}
+![第8期 · 如蝴蝶般入梦 ](https://pic.shika-mori.top/picGO/v9.jpg)
+{% endgallery %}
+
+### 📘 Vol.9 活泼又纯情 的青春年华 
+{% gallery %}
+![第9期 · 活泼又纯情的青春年华  ](https://pic.shika-mori.top/picGO/v10.png)
+{% endgallery %}
+
+### 📔 Vol.10 直视黑夜的 眼睛
+{% gallery %}
+![第10期 · 直视黑夜的眼睛 ](https://pic.shika-mori.top/picGO/10.png)
+{% endgallery %}
+
 ---
 
 <!-- ## 📘 Vol.6 ~ Vol.10

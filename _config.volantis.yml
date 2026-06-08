@@ -9,6 +9,10 @@ announcement:
     - text: "欢迎加入交流群一起交流! "
       link: "https://qm.qq.com/q/qWDAU1lWgi"
       icon: "fa-solid fa-users"
+    - text: "网站更新：修复了店铺链接和重构了相关代码以及同步上游源代码"
+      link: "/"
+      icon: "fa-solid fa-bullhorn"
+
 ############################### Volantis ###############################
 info:
   theme_name: Volantis # This is theme's name.
@@ -107,7 +111,7 @@ navbar:
       url: /covers
     - name: 友链
       icon: fa-solid fa-link
-      url: friends/
+      url: partners/
     - name: 关于我们
       icon: fa-solid fa-info-circle
       url: about/
@@ -116,7 +120,7 @@ navbar:
       url: contact/
     - name: 订阅期刊
       icon: fas fa-shop
-      url: https://item.taobao.com/item.htm?id=847135323610
+      url: https://item.taobao.com/item.htm?id=1043705359199
   search: 找不到？试着搜一下...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
@@ -159,7 +163,7 @@ cover:
     - name: 友链
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f9ec.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
-      url: /friends
+      url: /partners
 ############################### Cover ############################### > end
 
 pages:
@@ -524,7 +528,7 @@ sidebar:
         - icon: fa-solid fa-rss
           url: /atom.xml
         - icon: fas fa-shop
-          url: https://item.taobao.com/item.htm?id=847135323610
+          url: https://item.taobao.com/item.htm?id=1043705359199
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
@@ -629,7 +633,7 @@ sidebar:
         title: 订阅我们！
       content:
         - '<b>订阅期刊</b>'
-        - '[<img src="https://pic.shika-mori.top/picGO/20251026155631330.png" height="128px">](https://item.taobao.com/item.htm?id=847135323610)'
+        - '[<img src="https://img.alicdn.com/imgextra/i2/2206867282988/O1CN01BE0MOo1XwYaJe4AMh_!!2206867282988.png_760x760q30.jpg_.webp" height="128px">](https://item.taobao.com/item.htm?id=1043705359199)'
         - '加入我们的<b>官方交流群</b>！'
         - '[<img src="https://pic.shika-mori.top/picGO/QRC.png" style="height:220px; display:block; margin:12px auto;">](https://qm.qq.com/q/qWDAU1lWgi)'
     feedback:
@@ -1325,6 +1329,7 @@ custom_css:
       url: volantis-static/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
       style: normal
+      
 ############################### Custom css ############################### > end
 
 

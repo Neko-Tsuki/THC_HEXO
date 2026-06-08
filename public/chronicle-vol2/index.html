@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/#5.8.1'>
-  <meta name="generator" content="Hexo 7.2.0">
+  <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/#5.8.1'>
+  <meta name="generator" content="Hexo 8.1.0">
   <meta name="Volantis" content="5.8.1">
   <meta charset="utf-8">
   <!-- SEO相关 -->
@@ -48,7 +48,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img.shika-mori.top/picGO/%E9%98%BF%E6%B1%82.png">
 <meta property="article:published_time" content="2025-10-30T05:19:48.000Z">
-<meta property="article:modified_time" content="2025-10-30T09:10:15.185Z">
+<meta property="article:modified_time" content="2026-06-08T13:47:43.599Z">
 <meta property="article:author" content="東聯印社">
 <meta property="article:tag" content="Touhou 東方project">
 <meta name="twitter:card" content="summary">
@@ -499,7 +499,6 @@ button {
 .cover-wrapper .cover-body {
   margin-top: 72px;
   margin-bottom: 100px;
-/* 更小屏幕进一步缩放（≤ 420px） */
 }
 .cover-wrapper .cover-body,
 .cover-wrapper .cover-body .top,
@@ -531,28 +530,9 @@ button {
 }
 .cover-wrapper .cover-body .title {
   font-family: "YujiSyukuStd-R-2", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
-  font-size: 7.5rem;
+  font-size: 3.125rem;
   line-height: 1.2;
-  color: rgba(220,235,255,0.95); /* 温柔的淡蓝白 */
-  text-shadow: 2px 3px 8px rgba(0,0,0,0.4), 0 0 2px rgba(255,255,255,0.2);
-  letter-spacing: 2px;
-/* 移动端标题适配（适配宽度 ≤ 768px） */
-}
-@media (max-width: 840px) {
-  .cover-wrapper .cover-body .title {
-    font-size: 6.25rem; /* 用 CSS 变量或回退值 */
-    line-height: 1.15;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 6px rgba(0,0,0,0.35), 0 0 1px rgba(255,255,255,0.18);
-  }
-}
-@media (max-width: 420px) {
-  .cover-wrapper .cover-body .title {
-    font-size: 4.25rem;
-    line-height: 1.1;
-    letter-spacing: 0.6px;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.32), 0 0 1px rgba(255,255,255,0.15);
-  }
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 .cover-wrapper .cover-body .subtitle {
   font-size: 20px;
@@ -1823,7 +1803,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://img.shika-mori.top/picGO/阿求.png","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1762360629608),
+    lastupdate: new Date(1780935280908),
     sidebar: {
       for_page: ["blogger","feedback","repos","webinfo"],
       for_post: ["toc","repos"],
@@ -2245,15 +2225,126 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- front-matter head_end begin -->
   <!-- front-matter head_end end -->
 </head>
-  <body itemscope itemtype="http://schema.org/WebPage">
-    <!-- import body_begin begin-->
-    <!-- import body_begin end-->
-    <!-- Custom Files bodyBegin begin-->
-    
-    <!-- Custom Files bodyBegin end-->
-    <!-- front-matter body_begin begin -->
-    <!-- front-matter body_begin end -->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
+
+    <body itemscope itemtype="http://schema.org/WebPage">
+      <!-- import body_begin begin-->
+                <!-- import body_begin end-->
+                <!-- Custom Files bodyBegin begin-->
+                <!-- 公告栏开始 -->
+                
+                  <div class="announcement-bar"
+                    style="background: ; color: ; padding: 10px; font-size: 16px; border-bottom: 1px solid #ddd; display: none;">
+                    
+                      
+                        <div class="announcement-item" style="display: block;"
+                          data-index="0">
+                          
+                            <a href="/"
+                              style="color: inherit; text-decoration: none; display: flex; align-items: center;">
+                              <i class="fa-solid fa-bullhorn" style="margin-right: 10px;"></i>
+                              <span style="flex: 1; text-align: center;">
+                                东方行状录官网现已开放! 
+                              </span>
+                            </a>
+                            
+                        </div>
+                        
+                        <div class="announcement-item" style="display: none;"
+                          data-index="1">
+                          
+                            <a target="_blank" rel="noopener" href="https://qm.qq.com/q/qWDAU1lWgi"
+                              style="color: inherit; text-decoration: none; display: flex; align-items: center;">
+                              <i class="fa-solid fa-users" style="margin-right: 10px;"></i>
+                              <span style="flex: 1; text-align: center;">
+                                欢迎加入交流群一起交流! 
+                              </span>
+                            </a>
+                            
+                        </div>
+                        
+                        <div class="announcement-item" style="display: none;"
+                          data-index="2">
+                          
+                            <a href="/"
+                              style="color: inherit; text-decoration: none; display: flex; align-items: center;">
+                              <i class="fa-solid fa-bullhorn" style="margin-right: 10px;"></i>
+                              <span style="flex: 1; text-align: center;">
+                                网站更新：修复了店铺链接和重构了相关代码以及同步上游源代码
+                              </span>
+                            </a>
+                            
+                        </div>
+                        
+                          
+                  </div>
+                  <script>
+                    let announcementInterval = null;
+
+                    function initAnnouncementBar() {
+                      const announcementBar = document.querySelector('.announcement-bar');
+
+                      if (announcementInterval) {
+                        clearInterval(announcementInterval);
+                        announcementInterval = null;
+                      }
+
+                      if (!announcementBar) return;
+
+                      if (location.pathname === '/' || location.pathname === '/index.html') {
+                        // 注意这里：用 grid 替代 block，以配合我们新写的 CSS
+                        announcementBar.style.display = 'grid';
+
+                        const announcementItems = announcementBar.querySelectorAll('.announcement-item');
+
+                        if (announcementItems.length > 1) {
+                          let currentIndex = 0;
+
+                          // 🌟 初始化：清空内联样式，给第一条加上 active 动画
+                          announcementItems.forEach((item, index) => {
+                            item.style.display = ''; // 去除可能残留的 none/block
+                            item.classList.remove('active', 'leave');
+                            if (index === 0) {
+                              item.classList.add('active');
+                            }
+                          });
+
+                          function showNextAnnouncement() {
+                            const currentItem = announcementItems[currentIndex];
+                            currentIndex = (currentIndex + 1) % announcementItems.length;
+                            const nextItem = announcementItems[currentIndex];
+
+                            // 1. 当前展示的公告向上滑出
+                            currentItem.classList.remove('active');
+                            currentItem.classList.add('leave');
+
+                            // 2. 下一条公告从下方滑入
+                            nextItem.classList.remove('leave'); // 清除它的历史状态
+                            nextItem.classList.add('active');
+                          }
+
+                          // 继续保持 5 秒轮播
+                          announcementInterval = setInterval(showNextAnnouncement, 5000);
+                        } else if (announcementItems.length === 1) {
+                          // 如果只有1条公告，就稳稳当当显示，不加乱七八糟的动画
+                          announcementItems[0].style.display = '';
+                          announcementItems[0].classList.add('active');
+                        }
+
+                      } else {
+                        announcementBar.style.display = 'none';
+                      }
+                    }
+
+                    document.addEventListener('DOMContentLoaded', initAnnouncementBar);
+                    document.addEventListener('pjax:complete', initAnnouncementBar);
+                  </script>
+                  
+                    <!-- 公告栏结束 -->
+                    
+                      <!-- Custom Files bodyBegin end-->
+                      <!-- front-matter body_begin begin -->
+                                <!-- front-matter body_begin end -->
+                                <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2320,11 +2411,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
+                href="/partners/" title="友链"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-partners"
                   >
                   <i class='fa-solid fa-link fa-fw'></i>友链
                 </a>
@@ -2371,11 +2462,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://item.taobao.com/item.htm?id=847135323610" title="订阅期刊"
+                target="_blank" rel="noopener" href="https://item.taobao.com/item.htm?id=1043705359199" title="订阅期刊"
                   
                   
                   
-                    active-action="action-https:itemtaobaocomitemhtm?id=847135323610"
+                    active-action="action-https:itemtaobaocomitemhtm?id=1043705359199"
                   >
                   <i class='fas fa-shop fa-fw'></i>订阅期刊
                 </a>
@@ -2441,11 +2532,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
+                href="/partners/" title="友链"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-partners"
                   >
                   <i class='fa-solid fa-link fa-fw'></i>友链
                 </a>
@@ -2492,11 +2583,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://item.taobao.com/item.htm?id=847135323610" title="订阅期刊"
+                target="_blank" rel="noopener" href="https://item.taobao.com/item.htm?id=1043705359199" title="订阅期刊"
                   
                   
                   
-                    active-action="action-https:itemtaobaocomitemhtm?id=847135323610"
+                    active-action="action-https:itemtaobaocomitemhtm?id=1043705359199"
                   >
                   <i class='fas fa-shop fa-fw'></i>订阅期刊
                 </a>
@@ -2517,8 +2608,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </div>
 </header>
 
-    <div id="l_body">
-      <div id="l_cover">
+                                  <div id="l_body">
+                                    <div id="l_cover">
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
@@ -2526,27 +2617,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
   <div class='cover-bg lazyload placeholder' data-bg="https://img.shika-mori.top/picGO/幻想乡上空天空璋一面 (1) 拷贝.png"></div>
 
-<div class='cover-body simple'>
-    <div class='top'>
-      
-  
-      
-        <p class="title"><font><span>東方行狀錄</span></font></p>
-      
-  
-      
-    </div>
-  </div>
-  
+
         <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
       </div>
     
   
 </div>
 
-      <div id="safearea">
-        <div class="body-wrapper">
-          
+                                      <div id="safearea">
+                                        <div class="body-wrapper">
+                                          
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="https://touhouchronicle.com/chronicle-vol2/">
@@ -2661,6 +2741,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                 <div class="license-meta-text">2025年10月30日</div>
               </div>
               
+              <div class="license-meta-item">
+                <div class="license-meta-title">更新于</div>
+                <div class="license-meta-text">2026年6月8日</div>
+              </div>
+              
               
               <div class="license-meta-item">
                 <div class="license-meta-title">许可协议</div>
@@ -2683,10 +2768,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-10-30T17:10:15+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2026-06-08T21:47:43+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2025年10月30日</p>
+    <p>更新于：2026年6月8日</p>
   </a>
 </div>
 
@@ -2801,7 +2886,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <p><b>订阅期刊</b></p>
 
     
-      <p><a target="_blank" rel="noopener" href="https://item.taobao.com/item.htm?id=847135323610"><img src="https://img.shika-mori.top/picGO/20251026155631330.png" class="lazyload" data-srcset="https://img.shika-mori.top/picGO/20251026155631330.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" height="128px"></a></p>
+      <p><a target="_blank" rel="noopener" href="https://item.taobao.com/item.htm?id=1043705359199"><img src="https://img.alicdn.com/imgextra/i2/2206867282988/O1CN01BE0MOo1XwYaJe4AMh_!!2206867282988.png_760x760q30.jpg_.webp" class="lazyload" data-srcset="https://img.alicdn.com/imgextra/i2/2206867282988/O1CN01BE0MOo1XwYaJe4AMh_!!2206867282988.png_760x760q30.jpg_.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" height="128px"></a></p>
 
     
       <p>加入我们的<b>官方交流群</b>！</p>
@@ -2877,7 +2962,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-          <!--此文件用来存放一些不方便取值的变量-->
+                                            <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
@@ -2905,145 +2990,52 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
 </script>
 </pjax>
-        </div>
-        
+                                        </div>
+                                        
   
-
-  <footer class="footer clearfix" itemscope itemtype="http://schema.org/WPFooter">
+  <footer class="footer clearfix"  itemscope itemtype="http://schema.org/WPFooter">
     <br><br>
-
     
-
       
-        <!-- <div><p>博客内容遵循 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
-</div> -->
-
+        <div><p>博客内容遵循 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
       
-
     
-
       
         
           <div><p><span id="lc-sv">本站总访问量为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span> <span id="lc-uv">访客数为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span></p>
 </div>
         
       
-
     
-
       
-        <div class="footer-info">
-          Theme <a href="#" target="_blank">Volantis</a> | 
-          Modified by <a href="https://www.shika-mori.top" target="_blank">尘尘</a>
-          <br />Powered by 
-          <div class="footer-images"
-               style="display:flex; justify-content:center; align-items:center; gap:10px; margin-top:8px;">
-            <img src="https://img.shika-mori.top/picGO/社团logo.png"
-                 data-light="https://img.shika-mori.top/picGO/社团logo.png"
-                 data-dark="https://img.shika-mori.top/picGO/社团logo-dark.png"
-                 alt="Logo 1" class="footer-logo"
-                 style="width:120px; height:auto; border-radius:6px;">
-            <img src="https://img.shika-mori.top/picGO/东方行状录标题带英文.png"
-                 data-light="https://img.shika-mori.top/picGO/东方行状录标题带英文.png"
-                 data-dark="https://img.shika-mori.top/picGO/东方行状录标题带英文-dark.png"
-                 alt="Logo 2" class="footer-logo"
-                 style="width:350px; height:auto; border-radius:6px;">
-          </div>
-        </div>
-
-        <style>
-          .footer-logo {
-            transition: opacity 0.18s ease;
-            -webkit-user-drag: none;
-            user-select: none;
-            display: inline-block;
-          }
-        </style>
-
-        <script>
-          (function () {
-            const imgsSelector = '.footer-images .footer-logo';
-            function isLightMode() {
-              const html = document.documentElement;
-              if (html.hasAttribute('color-scheme')) {
-                return html.getAttribute('color-scheme') === 'light';
-              }
-              return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-            }
-            function updateLogos() {
-              const light = isLightMode();
-              document.querySelectorAll(imgsSelector).forEach(img => {
-                const dataLight = img.getAttribute('data-light');
-                const dataDark = img.getAttribute('data-dark');
-                const targetSrc = light ? (dataLight || img.src) : (dataDark || img.src);
-                if (!targetSrc || img.dataset.currentSrc === targetSrc) return;
-                img.style.opacity = '0.4';
-                const pre = new Image();
-                pre.onload = () => {
-                  img.src = targetSrc;
-                  img.dataset.currentSrc = targetSrc;
-                  img.style.opacity = '1';
-                };
-                pre.onerror = () => img.style.opacity = '1';
-                pre.src = targetSrc;
-              });
-            }
-            document.querySelectorAll(imgsSelector).forEach(img => {
-              if (!img.getAttribute('data-light')) {
-                img.setAttribute('data-light', img.src || '');
-              }
-            });
-            updateLogos();
-            if (window.matchMedia) {
-              const handler = () => updateLogos();
-              const mqDark = window.matchMedia('(prefers-color-scheme: dark)');
-              const mqLight = window.matchMedia('(prefers-color-scheme: light)');
-              if (mqDark.addEventListener) {
-                mqDark.addEventListener('change', handler);
-                mqLight.addEventListener('change', handler);
-              } else {
-                mqDark.addListener(handler);
-                mqLight.addListener(handler);
-              }
-            }
-            const observer = new MutationObserver(muts => {
-              for (const m of muts) {
-                if (m.type === 'attributes' && m.attributeName === 'color-scheme') {
-                  updateLogos();
-                  break;
-                }
-              }
-            });
-            observer.observe(document.documentElement, { attributes: true });
-            window.triggerFooterLogoUpdate = updateLogos;
-          })();
-        </script>
-
+        本站使用
+        <a href="https://github.com/volantis-x/hexo-theme-volantis/#5.8.1" target="_blank" class="codename">Volantis</a>
+        作为主题，总访问量为
+          <span id="busuanzi_value_site_pv"><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span>
+          次
+        
       
-
     
-
       
-        <div class="copyright">
-          <p><a href="/">Copyright © since 2024 東聯印社</a></p>
+        <div class='copyright'>
+        <p><a href="/">Copyright © since 2024 東聯印社</a></p>
 
         </div>
-
       
-
     
-
-    <!-- Custom Files footer begin -->
+    <!-- Custom Files footer begin-->
     
-    <!-- Custom Files footer end -->
+    <!-- Custom Files footer end-->
   </footer>
 
 
-        <a id="s-top" class="fa-solid fa-arrow-up fa-fw" href="/" onclick="return false;" title="top"></a>
-      </div>
-    </div>
-    <div>
-      <script>
+                                          <a id="s-top" class="fa-solid fa-arrow-up fa-fw" href="/"
+                                            onclick="return false;" title="top"></a>
+                                      </div>
+                                  </div>
+                                  <div>
+                                    <script>
   /******************** volantis.dom ********************************/
   // 页面选择器 将dom对象缓存起来 see: /source/js/app.js etc.
   volantis.dom.bodyAnchor = volantis.dom.$(document.getElementById("safearea")); // 页面主体
@@ -4096,12 +4088,12 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"東方行狀錄","url":"https://touhouchronicle.com/","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","sameAs":["https://github.com/volantis-x"],"description":"東聯印社旗下同人讀物"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://touhouchronicle.com/","name":"東方行狀錄"}},{"@type":"ListItem","position":3,"item":{"@id":"https://touhouchronicle.com/chronicle-vol2/","name":"第二期 · 角落里的回忆"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"東方行狀錄","url":"https://touhouchronicle.com/","keywords":"Touhou 東方project","description":"東聯印社旗下同人讀物","author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","description":"東聯印社旗下同人讀物"},"publisher":{"@type":"Organization","name":"東方行狀錄","url":"https://touhouchronicle.com/","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://touhouchronicle.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"第二期 · 角落里的回忆","description":"東聯印社旗下同人讀物","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://touhouchronicle.com/chronicle-vol2/"},"author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/"},"publisher":{"@type":"Organization","name":"東方行狀錄","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"url":"https://touhouchronicle.com/chronicle-vol2/","wordCount":0,"datePublished":"2025-10-30T05:19:48.000Z","dateModified":"2025-10-30T09:10:15.185Z","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/v2.jpg","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"東方行狀錄","url":"https://touhouchronicle.com/","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","sameAs":["https://github.com/volantis-x"],"description":"東聯印社旗下同人讀物"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://touhouchronicle.com/","name":"東方行狀錄"}},{"@type":"ListItem","position":3,"item":{"@id":"https://touhouchronicle.com/chronicle-vol2/","name":"第二期 · 角落里的回忆"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"東方行狀錄","url":"https://touhouchronicle.com/","keywords":"Touhou 東方project","description":"東聯印社旗下同人讀物","author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","description":"東聯印社旗下同人讀物"},"publisher":{"@type":"Organization","name":"東方行狀錄","url":"https://touhouchronicle.com/","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://touhouchronicle.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"第二期 · 角落里的回忆","description":"東聯印社旗下同人讀物","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://touhouchronicle.com/chronicle-vol2/"},"author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/"},"publisher":{"@type":"Organization","name":"東方行狀錄","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"url":"https://touhouchronicle.com/chronicle-vol2/","wordCount":0,"datePublished":"2025-10-30T05:19:48.000Z","dateModified":"2026-06-08T13:47:43.599Z","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/v2.jpg","width":1024,"height":768}}]</script>
 
 
 
-      
-        <!--
+                                      
+                                        <!--
   pjax重载区域接口：
   1.  <pjax></pjax> 标签 pjax 标签必须存在于所有页面 否则 pjax error
   2.  script[data-pjax]
@@ -4173,14 +4165,15 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     });
 </script>
 
-      
-    </div>
-    <!-- import body_end begin-->
-    <!-- import body_end end-->
-    <!-- Custom Files bodyEnd begin-->
-    
-    <!-- Custom Files bodyEnd end-->
-    <!-- front-matter body_end begin -->
-    <!-- front-matter body_end end -->
-  </body>
+                                          
+                                  </div>
+                                  <!-- import body_end begin-->
+                                            <!-- import body_end end-->
+                                            <!-- Custom Files bodyEnd begin-->
+                                            
+                                              <!-- Custom Files bodyEnd end-->
+                                              <!-- front-matter body_end begin -->
+                                                        <!-- front-matter body_end end -->
+    </body>
+
 </html>
