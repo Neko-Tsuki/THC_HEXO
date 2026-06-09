@@ -57,11 +57,11 @@ csp:
 # 默认使用 https://unpkg.com/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/*.js ，注意版本号对应关系！！可以通过修改以下配置项覆盖
 # 开发者注意 cdn.enable 设置为 false
 cdn:
-  enable: false
+  enable: true
   # CDN 前缀，为空使用默认值，链接最后不加 "/",
   # 例如： https://cdn.jsdelivr.net/gh/volantis-x/volantis-x.github.io@gh-page 填写最后编译生成的源码CDN地址前缀，此路径下应该含有/js与/css目录,
   # 该配置默认值是："https://unpkg.com/hexo-theme-volantis@"+ theme.info.theme_version +"/source"
-  prefix: #https://unpkg.com/hexo-theme-volantis/source
+  prefix: https://cdn.shika-mori.top/siyuan-note/picGO #https://unpkg.com/hexo-theme-volantis/source
   # 以下配置可以覆盖 cdn.prefix,配置项的值可以为空，但是要使用CDN必须依据路径填写配置项的键
   set:
     js:
@@ -84,7 +84,7 @@ content_visibility: false
 replace:
   - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
   - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
-  - https://pic.shika-mori.top/ => https://img.shika-mori.top/
+  - https://pic.shika-mori.top/ => https://cdn.shika-mori.top/siyuan-note/
 
 
 # dns-prefetch preconnect x-dns-prefetch-control
@@ -133,7 +133,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://pic.shika-mori.top/picGO/幻想乡上空天空璋一面 (1) 拷贝.png
+  background: https://cdn.shika-mori.top/siyuan-note/picGO/%E5%B9%BB%E6%83%B3%E4%B9%A1%E4%B8%8A%E7%A9%BA%E5%A4%A9%E7%A9%BA%E7%92%8B%E4%B8%80%E9%9D%A2%20(1)%20%E6%8B%B7%E8%B4%9D.png
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: 
   title: '<font><span>東方行狀錄</span></font>'
