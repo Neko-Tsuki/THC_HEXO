@@ -89,7 +89,7 @@ date: 2025-10-28 23:22:55
 
 ### 📔 Vol.10 直视黑夜的 眼睛
 {% gallery %}
-![第10期 · 直视黑夜的眼睛 ](https://pic.shika-mori.top/picGO/10.png)
+![第10期 · 直视黑夜的眼睛 ](https://pic.shika-mori.top/picGO/%E5%B0%81%E9%9D%A2%E5%B0%81%E8%83%8C-1.png)
 {% endgallery %}
 
 ---
