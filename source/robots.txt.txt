@@ -1,0 +1,9 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /search/
+Disallow: /page/
+Disallow: /404.html
+
+Sitemap: https://www.touhouchronicle.com/sitemap.xml

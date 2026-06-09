@@ -819,27 +819,6 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - volantis-static/media/wallpaper/minimalist/2020/001.webp
-      - volantis-static/media/wallpaper/minimalist/2020/002.webp
-      - volantis-static/media/wallpaper/minimalist/2020/003.webp
-      - volantis-static/media/wallpaper/minimalist/2020/004.webp
-      - volantis-static/media/wallpaper/minimalist/2020/005.webp
-      - volantis-static/media/wallpaper/minimalist/2020/006.webp
-      - volantis-static/media/wallpaper/minimalist/2020/012.webp
-      - volantis-static/media/wallpaper/minimalist/2020/016.webp
-      - volantis-static/media/wallpaper/minimalist/2020/019.webp
-      - volantis-static/media/wallpaper/minimalist/2020/025.webp
-      - volantis-static/media/wallpaper/minimalist/2020/033.webp
-      - volantis-static/media/wallpaper/minimalist/2020/034.webp
-      - volantis-static/media/wallpaper/minimalist/2020/035.webp
-      - volantis-static/media/wallpaper/minimalist/2020/038.webp
-      - volantis-static/media/wallpaper/minimalist/2020/039.webp
-      - volantis-static/media/wallpaper/minimalist/2020/042.webp
-      - volantis-static/media/wallpaper/minimalist/2020/046.webp
-      - volantis-static/media/wallpaper/minimalist/2020/051.webp
-      - volantis-static/media/wallpaper/minimalist/2020/052.webp
-      - volantis-static/media/wallpaper/minimalist/2020/054.webp
-      - volantis-static/media/wallpaper/minimalist/2020/056.webp
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
@@ -1368,22 +1347,16 @@ open_graph:
 ############################### Open Graph ############################### > end
 
 ############################### Structured Data ############################### > start
-# SEO 入门文档: https://developers.google.com/search/docs
-# https://schema.org.cn/
-# 结构化数据用于更改搜索结果的显示效果
-# 目前内置的结构化数据: blogposting, breadcrumblist, organization, person, website
-# 目前内置的富媒体搜索结果: 路径(面包屑导航), 徽标(Logo), 站点链接搜索框(SearchAction)
-# https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data
-# 富媒体搜索结果测试: https://search.google.com/test/rich-results
 structured_data:
   enable: true
-  # 以下是覆盖配置, 默认配置见 scripts/helpers/structured-data/lib/config.js
   data:
-    person:
-      sns:
-        - https://github.com/volantis-x
+    organization:
+      name: 東方行狀錄
+      url: https://www.touhouchronicle.com
+
     logo:
-      path: https://pic.shika-mori.top/picGO/阿求.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png
+      path: https://pic.shika-mori.top/picGO/阿求.png
       width: 192
       height: 192
+
 ############################### Structured Data ############################### > end

@@ -1,9 +1,23 @@
 <% if (item.header) { %>
   <header>
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Periodical",
+  "name":"東方行狀錄",
+  "url":"https://www.touhouchronicle.com",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Touhou Chronicle"
+  }
+}
+</script>
     <% if (item.header.url) { %>
-      <a href='<%- item.header.url %>'><i class="<%- item.header.icon %> fa-fw" aria-hidden="true"></i><span class='name'><%- item.header.title %></span></a>
-    <% } else { %>
-      <i class="<%- item.header.icon %> fa-fw" aria-hidden="true"></i><span class='name'><%- item.header.title %></span>
-    <% } %>
+      <a href='<%- item.header.url %>'><i class="<%- item.header.icon %> fa-fw" aria-hidden="true"></i><span
+          class='name'><%- item.header.title %></span></a>
+      <% } else { %>
+        <i class="<%- item.header.icon %> fa-fw" aria-hidden="true"></i><span class='name'><%- item.header.title
+            %></span>
+        <% } %>
   </header>
-<% } %>
+  <% } %>

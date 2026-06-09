@@ -5,11 +5,21 @@
 # Site
 title: 東方行狀錄
 subtitle: 'Touhou Chronicle'
-description: '東聯印社旗下同人讀物'
-keywords: Touhou 東方project
+description:  >
+  《東方行狀錄》是以東方Project為主題的非營利同人電子期刊，
+  涵蓋同人創作、社群訪談、活動紀實與文化研究。
+keywords: 
+  - 東方Project
+  - Touhou Project
+  - Touhou Chronicle
+  - 東方行狀錄
+  - 同人誌
+  - 東方同人
+  - 幻想鄉
+  - 東方文化研究
 author: 東聯印社
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 favicon: https://cdn.shika-mori.top/picGO/阿求.png
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -93,6 +103,9 @@ include:
 exclude:
 ignore:
 
+sitemap:
+  path: sitemap.xml
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 plugins:
@@ -105,3 +118,12 @@ deploy:
   type: git
   repo: https://github.com/Matcha8520/Matcha8520.github.io.git
   branch: main
+
+search:
+  path: search.xml
+  field: post
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
