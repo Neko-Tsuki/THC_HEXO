@@ -97,7 +97,7 @@
     margin-top: $gap * 2
   .title
     font-family: $fontfamily-logo
-    font-size: $fontsize-large * 1.25
+    font-size: $fontsize-large * 1.65
     line-height: 1.2
     text-shadow: 0 1px 2px rgba(0, 0, 0, .1)
   .subtitle
@@ -302,3 +302,46 @@ if hexo-config('plugins.parallax.enable')
         filter blur(12px)
       100%
         opacity: 1
+        
+  .cover-body .title {
+    opacity: 0;
+    transform: translateY(30px);
+
+    animation:
+      titleFade 1.4s cubic-bezier(.22,1,.36,1) forwards,
+      titleBreath 18s ease-in-out infinite 1.4s;
+
+    letter-spacing: 0.12em;
+  }
+
+  .cover-body .subtitle {
+    opacity: 0;
+    transform: translateY(20px);
+
+    animation:
+      subtitleFade 1.4s cubic-bezier(.22,1,.36,1) 0.4s forwards;
+  }
+
+  @keyframes titleFade {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes subtitleFade {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 0.9;
+      transform: translateY(0);
+    }
+  }
